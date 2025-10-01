@@ -42,8 +42,9 @@ ai-tools-database/
 ├── scripts/
 │   ├── validate.js         # Data validation script
 │   ├── format.js           # JSON formatting and stats
-│   ├── migrate.js          # CSV to JSON migration
-│   └── test.js             # Test suite
+│   ├── aggregate.js        # Data aggregation script
+│   ├── test.js             # Test suite
+│   └── stats.js            # Statistics generation
 └── docs/                   # Documentation
 ```
 
@@ -74,8 +75,8 @@ npm run test
 npm run validate    # Validate all JSON data against schema
 npm run test        # Run test suite
 npm run format      # Format and sort JSON files
+npm run aggregate   # Aggregate all tools into main file
 npm run stats       # Generate database statistics
-npm run migrate     # Migrate CSV data to JSON format
 ```
 
 ## 📋 Categories
