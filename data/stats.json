@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-01T15:27:54.882Z",
+  "lastUpdated": "2025-10-01T15:28:53.202Z",
   "totalTools": 9,
   "categories": {
     "content": 3,
@@ -10,9 +10,8 @@
   "popular": 9,
   "new": 1,
   "pricing": {
-    "Free": 0,
     "Freemium": 5,
-    "Paid": 1,
-    "Subscription": 3
+    "Subscription": 3,
+    "Paid": 1
   }
 }
