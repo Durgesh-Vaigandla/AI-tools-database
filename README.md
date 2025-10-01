@@ -16,7 +16,7 @@ A community-driven, open-source database of AI tools for developers, designers, 
 ## 🚀 Quick Start
 
 ### For Users
-Visit [CSEdge AI Tools Directory](https://csedge.co/ai-tools) to browse and discover AI tools.
+Browse the [AI Tools Directory](https://github.com/Durgesh-Vaigandla/ai-tools-database) to discover AI tools.
 
 ### For Contributors
 1. **Fork** this repository
@@ -194,7 +194,7 @@ fetch('https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/mai
   .then(categories => console.log(categories));
 ```
 
-### For CSEdge Website Integration
+### For Website Integration
 
 ```javascript
 // Load all AI tools for your website
@@ -231,7 +231,7 @@ Share your AI tools database updates on LinkedIn:
 
 🔗 Check it out: https://github.com/Durgesh-Vaigandla/ai-tools-database
 
-#AI #ArtificialIntelligence #DeveloperTools #OpenSource #CSEdge
+#AI #ArtificialIntelligence #DeveloperTools #OpenSource
 ```
 
 **Dynamic Badges for Sharing:**
@@ -269,13 +269,12 @@ Share your AI tools database updates on LinkedIn:
 ### Phase 3 (Future)
 - 🔄 API endpoints with authentication
 - 🔄 Tool usage analytics
-- 🔄 Integration with CSEdge website
+- 🔄 Integration with external websites
 - 🔄 Mobile app companion
 
 ## 🙏 Acknowledgments
 
 - **Contributors**: Everyone who submits and maintains tools
-- **CSEdge Community**: For inspiration and support
 - **Open Source Community**: For tools and frameworks used
 
 ## 📄 License
@@ -286,8 +285,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/Durgesh-Vaigandla/ai-tools-database/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Durgesh-Vaigandla/ai-tools-database/discussions)
-- **Website**: [CSEdge](https://csedge.co)
 
 ---
 
-**Made with ❤️ by the CSEdge Community**
+**Made with ❤️ by the Open Source Community**

@@ -259,7 +259,7 @@ Before submitting, ensure:
 2. **Manual Review**: Maintainers will review for quality and accuracy
 3. **Feedback**: You may receive requests for changes
 4. **Approval**: Once approved, your tool will be added to the database
-5. **Live**: Tool appears on the CSEdge website within 24 hours
+5. **Live**: Tool appears in the database within 24 hours
 
 ### Recognition
 

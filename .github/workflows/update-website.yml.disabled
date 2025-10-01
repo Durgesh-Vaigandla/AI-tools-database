@@ -20,7 +20,7 @@ jobs:
       - name: Checkout website repo
         uses: actions/checkout@v4
         with:
-          repository: 'Durgesh-Vaigandla/csedge.co'  # Replace with actual repo name
+          repository: 'your-org/website-repo'  # Replace with actual repo name
           path: 'website'
           token: ${{ secrets.WEBSITE_UPDATE_TOKEN }}
 
