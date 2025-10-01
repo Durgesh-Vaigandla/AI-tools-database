@@ -1,0 +1,86 @@
+[
+  {
+    "id": "development",
+    "name": "Development",
+    "description": "Coding assistants, debuggers, deployment tools, and development productivity tools",
+    "icon": "FiCode",
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "UI/UX design tools, image generators, prototyping, and creative design assistants",
+    "icon": "FaPalette",
+    "color": "from-purple-500 to-pink-500"
+  },
+  {
+    "id": "content",
+    "name": "Content Creation",
+    "description": "Writing assistants, content generators, copywriting tools, and creative writing aids",
+    "icon": "FiEdit3",
+    "color": "from-green-500 to-teal-500"
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "description": "Business intelligence, analytics, automation, and enterprise productivity tools",
+    "icon": "FaChartLine",
+    "color": "from-indigo-500 to-blue-500"
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "description": "Task management, automation, workflow optimization, and personal productivity tools",
+    "icon": "FiDatabase",
+    "color": "from-orange-500 to-red-500"
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "description": "Academic research, data analysis, literature review, and research assistance tools",
+    "icon": "FiSearch",
+    "color": "from-yellow-500 to-orange-500"
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Social media management, SEO tools, advertising, and marketing automation",
+    "icon": "FiTrendingUp",
+    "color": "from-pink-500 to-rose-500"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "description": "Learning platforms, tutoring systems, educational content creation, and study aids",
+    "icon": "FaBrain",
+    "color": "from-emerald-500 to-green-500"
+  },
+  {
+    "id": "audio",
+    "name": "Audio & Music",
+    "description": "Music generation, audio editing, voice synthesis, and sound design tools",
+    "icon": "FiMusic",
+    "color": "from-violet-500 to-purple-500"
+  },
+  {
+    "id": "video",
+    "name": "Video",
+    "description": "Video editing, generation, animation, and multimedia content creation tools",
+    "icon": "FiVideo",
+    "color": "from-red-500 to-pink-500"
+  },
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "description": "Data analysis, machine learning, visualization, and statistical tools",
+    "icon": "FiBarChart",
+    "color": "from-cyan-500 to-blue-500"
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "description": "Workflow automation, API integration, and process optimization tools",
+    "icon": "FaRobot",
+    "color": "from-gray-500 to-slate-500"
+  }
+]

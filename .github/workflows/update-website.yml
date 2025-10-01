@@ -1,0 +1,44 @@
+name: Update Website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  update-website:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout database repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'Durgesh-Vaigandla/ai-tools-database'
+          path: 'database'
+
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'Durgesh-Vaigandla/csedge.co'
+          path: 'website'
+          token: ${{ secrets.WEBSITE_UPDATE_TOKEN }}
+
+      - name: Copy updated data
+        run: |
+          cp -r database/data/* website/AI-tools-database/data/
+          cp database/package.json website/AI-tools-database/
+
+      - name: Update website data
+        working-directory: website
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy website
+        working-directory: website
+        run: |
+          # Add your deployment commands here
+          # For example, if using Vercel:
+          # npx vercel --prod --yes
+          echo "Website updated with latest AI tools data"

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "dall-e",
+    "name": "DALL-E 3",
+    "description": "OpenAI's advanced image generation model that creates highly detailed and accurate images from text prompts. Integrated with ChatGPT and available via API.",
+    "category": "design",
+    "pricing": "Paid",
+    "link": "https://openai.com/dall-e-3",
+    "tags": [
+      "image-generation",
+      "openai",
+      "ai-art",
+      "design",
+      "creativity"
+    ],
+    "featured": true,
+    "popular": true,
+    "new": false,
+    "rating": 4.7,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "figma-ai",
+    "name": "Figma AI",
+    "description": "AI-powered design tools integrated into Figma, including automatic layout suggestions, component generation, and design assistance for UI/UX designers.",
+    "category": "design",
+    "pricing": "Subscription",
+    "link": "https://www.figma.com",
+    "tags": [
+      "ui-design",
+      "ux-design",
+      "prototyping",
+      "collaboration",
+      "figma"
+    ],
+    "featured": false,
+    "popular": true,
+    "new": true,
+    "rating": 4.6,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "description": "AI-powered image generation tool that creates stunning artwork from text descriptions. Known for its artistic style and high-quality outputs used by designers and artists worldwide.",
+    "category": "design",
+    "pricing": "Freemium",
+    "link": "https://www.midjourney.com",
+    "tags": [
+      "image-generation",
+      "art",
+      "design",
+      "ai-art",
+      "creativity"
+    ],
+    "featured": true,
+    "popular": true,
+    "new": false,
+    "rating": 4.9,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  }
+]

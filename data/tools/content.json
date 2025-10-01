@@ -1,0 +1,72 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "Advanced conversational AI by OpenAI that can help with writing, research, coding, and various creative tasks. Available in multiple versions with different capabilities.",
+    "category": "content",
+    "pricing": "Freemium",
+    "link": "https://chat.openai.com",
+    "tags": [
+      "writing",
+      "chat",
+      "openai",
+      "conversation",
+      "research",
+      "coding"
+    ],
+    "featured": true,
+    "popular": true,
+    "new": false,
+    "rating": 4.8,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "description": "AI-powered copywriting tool that generates marketing copy, blog posts, social media content, and more. Features templates for different content types and industries.",
+    "category": "content",
+    "pricing": "Freemium",
+    "link": "https://www.copy.ai",
+    "tags": [
+      "copywriting",
+      "marketing",
+      "content-creation",
+      "ai-writing",
+      "templates"
+    ],
+    "featured": false,
+    "popular": true,
+    "new": false,
+    "rating": 4.3,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "description": "AI writing assistant designed for marketing and content creation. Helps create blog posts, social media content, emails, and marketing copy with specialized templates.",
+    "category": "content",
+    "pricing": "Subscription",
+    "link": "https://www.jasper.ai",
+    "tags": [
+      "writing",
+      "marketing",
+      "content-creation",
+      "copywriting",
+      "blogging"
+    ],
+    "featured": false,
+    "popular": true,
+    "new": false,
+    "rating": 4.4,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cursor-ai",
+    "name": "Cursor AI",
+    "description": "AI-first code editor built for pair programming with AI. Features advanced code completion, chat interface, and seamless integration with multiple AI models.",
+    "category": "development",
+    "pricing": "Freemium",
+    "link": "https://cursor.sh",
+    "tags": [
+      "editor",
+      "ai",
+      "coding",
+      "productivity",
+      "chat",
+      "pair-programming"
+    ],
+    "featured": true,
+    "popular": true,
+    "new": false,
+    "rating": 4.7,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": "AI-powered code completion tool that suggests code snippets and entire functions in real-time as you type. Supports multiple programming languages and integrates seamlessly with popular code editors.",
+    "category": "development",
+    "pricing": "Subscription",
+    "link": "https://github.com/features/copilot",
+    "tags": [
+      "coding",
+      "ai",
+      "productivity",
+      "github",
+      "javascript",
+      "python",
+      "vscode"
+    ],
+    "featured": true,
+    "popular": true,
+    "new": false,
+    "rating": 4.8,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "description": "AI code completion tool that learns from your codebase and provides intelligent suggestions. Supports 30+ programming languages and integrates with major IDEs.",
+    "category": "development",
+    "pricing": "Freemium",
+    "link": "https://www.tabnine.com",
+    "tags": [
+      "autocomplete",
+      "ai",
+      "coding",
+      "productivity",
+      "machine-learning"
+    ],
+    "featured": false,
+    "popular": true,
+    "new": false,
+    "rating": 4.5,
+    "submittedBy": "durgesh-vaigandla",
+    "submittedAt": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "verificationStatus": "verified"
+  }
+]
