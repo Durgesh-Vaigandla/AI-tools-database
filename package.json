@@ -6,6 +6,7 @@
   "scripts": {
     "validate": "node scripts/validate.js",
     "format": "node scripts/format.js",
+    "aggregate": "node scripts/aggregate.js",
     "migrate": "node scripts/migrate.js",
     "test": "node scripts/test.js",
     "stats": "node scripts/stats.js"

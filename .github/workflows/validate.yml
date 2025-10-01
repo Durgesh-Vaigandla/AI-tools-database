@@ -40,6 +40,9 @@ jobs:
       - name: Format JSON files
         run: npm run format
 
+      - name: Aggregate tools data
+        run: npm run aggregate
+
   stats:
     runs-on: ubuntu-latest
     needs: validate

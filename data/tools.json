@@ -1,7 +1,235 @@
 {
-  "lastUpdated": "2025-10-01T14:55:26.174Z",
+  "lastUpdated": "2025-10-01T15:22:53.412Z",
   "version": "1.0.0",
-  "totalTools": 0,
-  "categories": [],
-  "tools": []
+  "totalTools": 9,
+  "categories": [
+    {
+      "id": "content",
+      "name": "Content",
+      "count": 3
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "count": 3
+    },
+    {
+      "id": "development",
+      "name": "Development",
+      "count": 3
+    }
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "Advanced conversational AI by OpenAI that can help with writing, research, coding, and various creative tasks. Available in multiple versions with different capabilities.",
+      "category": "content",
+      "pricing": "Freemium",
+      "link": "https://chat.openai.com",
+      "tags": [
+        "writing",
+        "chat",
+        "openai",
+        "conversation",
+        "research",
+        "coding"
+      ],
+      "featured": true,
+      "popular": true,
+      "new": false,
+      "rating": 4.8,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "description": "AI-powered copywriting tool that generates marketing copy, blog posts, social media content, and more. Features templates for different content types and industries.",
+      "category": "content",
+      "pricing": "Freemium",
+      "link": "https://www.copy.ai",
+      "tags": [
+        "copywriting",
+        "marketing",
+        "content-creation",
+        "ai-writing",
+        "templates"
+      ],
+      "featured": false,
+      "popular": true,
+      "new": false,
+      "rating": 4.3,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "cursor-ai",
+      "name": "Cursor AI",
+      "description": "AI-first code editor built for pair programming with AI. Features advanced code completion, chat interface, and seamless integration with multiple AI models.",
+      "category": "development",
+      "pricing": "Freemium",
+      "link": "https://cursor.sh",
+      "tags": [
+        "editor",
+        "ai",
+        "coding",
+        "productivity",
+        "chat",
+        "pair-programming"
+      ],
+      "featured": true,
+      "popular": true,
+      "new": false,
+      "rating": 4.7,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dall-e",
+      "name": "DALL-E 3",
+      "description": "OpenAI's advanced image generation model that creates highly detailed and accurate images from text prompts. Integrated with ChatGPT and available via API.",
+      "category": "design",
+      "pricing": "Paid",
+      "link": "https://openai.com/dall-e-3",
+      "tags": [
+        "image-generation",
+        "openai",
+        "ai-art",
+        "design",
+        "creativity"
+      ],
+      "featured": true,
+      "popular": true,
+      "new": false,
+      "rating": 4.7,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "figma-ai",
+      "name": "Figma AI",
+      "description": "AI-powered design tools integrated into Figma, including automatic layout suggestions, component generation, and design assistance for UI/UX designers.",
+      "category": "design",
+      "pricing": "Subscription",
+      "link": "https://www.figma.com",
+      "tags": [
+        "ui-design",
+        "ux-design",
+        "prototyping",
+        "collaboration",
+        "figma"
+      ],
+      "featured": false,
+      "popular": true,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "description": "AI-powered code completion tool that suggests code snippets and entire functions in real-time as you type. Supports multiple programming languages and integrates seamlessly with popular code editors.",
+      "category": "development",
+      "pricing": "Subscription",
+      "link": "https://github.com/features/copilot",
+      "tags": [
+        "coding",
+        "ai",
+        "productivity",
+        "github",
+        "javascript",
+        "python",
+        "vscode"
+      ],
+      "featured": true,
+      "popular": true,
+      "new": false,
+      "rating": 4.8,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "description": "AI writing assistant designed for marketing and content creation. Helps create blog posts, social media content, emails, and marketing copy with specialized templates.",
+      "category": "content",
+      "pricing": "Subscription",
+      "link": "https://www.jasper.ai",
+      "tags": [
+        "writing",
+        "marketing",
+        "content-creation",
+        "copywriting",
+        "blogging"
+      ],
+      "featured": false,
+      "popular": true,
+      "new": false,
+      "rating": 4.4,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "description": "AI-powered image generation tool that creates stunning artwork from text descriptions. Known for its artistic style and high-quality outputs used by designers and artists worldwide.",
+      "category": "design",
+      "pricing": "Freemium",
+      "link": "https://www.midjourney.com",
+      "tags": [
+        "image-generation",
+        "art",
+        "design",
+        "ai-art",
+        "creativity"
+      ],
+      "featured": true,
+      "popular": true,
+      "new": false,
+      "rating": 4.9,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "description": "AI code completion tool that learns from your codebase and provides intelligent suggestions. Supports 30+ programming languages and integrates with major IDEs.",
+      "category": "development",
+      "pricing": "Freemium",
+      "link": "https://www.tabnine.com",
+      "tags": [
+        "autocomplete",
+        "ai",
+        "coding",
+        "productivity",
+        "machine-learning"
+      ],
+      "featured": false,
+      "popular": true,
+      "new": false,
+      "rating": 4.5,
+      "submittedBy": "durgesh-vaigandla",
+      "submittedAt": "2024-01-15T10:00:00Z",
+      "lastUpdated": "2024-01-15T10:00:00Z",
+      "verificationStatus": "verified"
+    }
+  ]
 }

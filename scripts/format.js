@@ -119,6 +119,10 @@ if (require.main === module) {
   } else {
     formatJSONFiles();
     generateStats();
+
+    // Also aggregate all tools into main file
+    const { aggregateTools } = require('./aggregate.js');
+    aggregateTools();
   }
 }
 
