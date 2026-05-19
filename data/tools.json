@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-08T19:18:59.358Z",
+  "lastUpdated": "2026-05-19T07:53:44.471Z",
   "version": "1.0.0",
-  "totalTools": 43,
+  "totalTools": 44,
   "categories": [
     {
       "id": "audio",
@@ -31,7 +31,7 @@
     {
       "id": "design",
       "name": "Design",
-      "count": 3
+      "count": 4
     },
     {
       "id": "development",
@@ -617,6 +617,29 @@
       "submittedAt": "2026-04-08T00:00:00Z",
       "lastUpdated": "2026-04-08T00:00:00Z",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "landscapioai",
+      "name": "LandscapioAI",
+      "description": "AI landscape design tool that turns yard, garden, patio, and front-yard photos into visual redesign concepts and cost-aware makeover ideas for homeowners.",
+      "category": "design",
+      "pricing": "Freemium",
+      "link": "https://www.landscapioai.com",
+      "tags": [
+        "landscape-design",
+        "home-design",
+        "image-generation",
+        "garden-planning",
+        "visualization"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 0,
+      "submittedBy": "henryclaw007-lgtm",
+      "submittedAt": "2026-05-19T00:00:00Z",
+      "lastUpdated": "2026-05-19T00:00:00Z",
+      "verificationStatus": "pending"
     },
     {
       "id": "make-com",
