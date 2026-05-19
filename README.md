@@ -8,7 +8,7 @@ A community-driven, open-source database of AI tools for developers, designers, 
 
 ## 📊 Live Statistics
 
-- **Total Tools**: 43
+- **Total Tools**: 44
 - **Categories**: 12
 - **Contributors**: ![Contributors](https://img.shields.io/github/contributors/Durgesh-Vaigandla/ai-tools-database)
 - **Last Updated**: ![Last Commit](https://img.shields.io/github/last-commit/Durgesh-Vaigandla/ai-tools-database/main)
@@ -94,7 +94,7 @@ npm run stats       # Generate database statistics
 | Category | Description | Tools Count |
 |----------|-------------|-------------|
 | **Development** | Coding assistants, debuggers, deployment tools, and development productivity tools | 3 |
-| **Design** | UI/UX design tools, image generators, prototyping, and creative design assistants | 3 |
+| **Design** | UI/UX design tools, image generators, prototyping, and creative design assistants | 4 |
 | **Content Creation** | Writing assistants, content generators, copywriting tools, and creative writing aids | 3 |
 | **Business** | Business intelligence, analytics, automation, and enterprise productivity tools | 5 |
 | **Productivity** | Task management, automation, workflow optimization, and personal productivity tools | 4 |
@@ -236,7 +236,7 @@ Share your AI tools database updates on LinkedIn:
 🚀 Just updated our comprehensive AI Tools Database!
 
 📊 Current Stats:
-• 43+ AI tools across 12 categories
+• 44+ AI tools across 12 categories
 • Development, Design, and Content Creation tools
 • All tools verified and categorized
 

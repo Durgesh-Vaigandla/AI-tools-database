@@ -46,6 +46,29 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "landscapioai",
+    "name": "LandscapioAI",
+    "description": "AI landscape design tool that turns yard, garden, patio, and front-yard photos into visual redesign concepts and cost-aware makeover ideas for homeowners.",
+    "category": "design",
+    "pricing": "Freemium",
+    "link": "https://www.landscapioai.com",
+    "tags": [
+      "landscape-design",
+      "home-design",
+      "image-generation",
+      "garden-planning",
+      "visualization"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "rating": 0,
+    "submittedBy": "henryclaw007-lgtm",
+    "submittedAt": "2026-05-19T00:00:00Z",
+    "lastUpdated": "2026-05-19T00:00:00Z",
+    "verificationStatus": "pending"
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "description": "AI-powered image generation tool that creates stunning artwork from text descriptions. Known for its artistic style and high-quality outputs used by designers and artists worldwide.",
