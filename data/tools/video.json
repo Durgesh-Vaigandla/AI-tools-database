@@ -1,6 +1,6 @@
 {
   "_category": "video",
-  "_count": 3,
+  "_count": 4,
   "tools": [
     {
       "id": "descript",
@@ -69,6 +69,29 @@
       "submittedAt": "2026-04-08T00:00:00Z",
       "lastUpdated": "2026-04-08T00:00:00Z",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "imagineclip",
+      "name": "ImagineClip",
+      "description": "AI video generator for fun clips, avatar videos, stylized scenes, and shareable social content made from prompts, images, and effects.",
+      "category": "video",
+      "pricing": "Freemium",
+      "link": "https://imagineclip.com",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "avatar",
+        "social-content",
+        "creative-tools"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "JeremyGDM",
+      "submittedAt": "2026-06-16T05:08:34Z",
+      "lastUpdated": "2026-06-16T05:08:34Z",
+      "verificationStatus": "pending"
     }
   ]
 }
