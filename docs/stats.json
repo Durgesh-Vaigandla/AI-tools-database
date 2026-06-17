@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-08T19:16:16.291Z",
-  "totalTools": 43,
+  "lastUpdated": "2026-06-17T09:29:22.005Z",
+  "totalTools": 44,
   "totalCategories": 12,
   "categories": {
     "audio": 3,
     "automation": 4,
     "business": 5,
     "content": 3,
-    "data-science": 3,
+    "data-science": 4,
     "design": 3,
     "development": 3,
     "education": 4,
@@ -18,10 +18,10 @@
   },
   "featured": 15,
   "popular": 31,
-  "new": 4,
+  "new": 5,
   "pricing": {
     "Free": 3,
-    "Freemium": 30,
+    "Freemium": 31,
     "Subscription": 3,
     "Paid": 7
   }

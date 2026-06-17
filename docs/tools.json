@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-08T19:16:16.289Z",
+  "lastUpdated": "2026-06-17T09:29:22.003Z",
   "version": "1.0.0",
-  "totalTools": 43,
+  "totalTools": 44,
   "categories": [
     {
       "id": "audio",
@@ -26,7 +26,7 @@
     {
       "id": "data-science",
       "name": "Data science",
-      "count": 3
+      "count": 4
     },
     {
       "id": "design",
@@ -477,6 +477,29 @@
       "submittedAt": "2026-04-08T00:00:00Z",
       "lastUpdated": "2026-04-08T00:00:00Z",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "fpvtune",
+      "name": "FPVTune",
+      "description": "Open-source AI assistant for FPV drone pilots. Upload Betaflight blackbox logs to analyze gyro noise, resonance, prop wash, and configuration signals, then get practical PID and filter tuning suggestions.",
+      "category": "data-science",
+      "pricing": "Freemium",
+      "link": "https://fpvtune.com/",
+      "tags": [
+        "data-analysis",
+        "machine-learning",
+        "drones",
+        "betaflight",
+        "pid-tuning"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "chugzb",
+      "submittedAt": "2026-06-17T09:52:00Z",
+      "lastUpdated": "2026-06-17T09:52:00Z",
+      "verificationStatus": "pending"
     },
     {
       "id": "gamma-app",

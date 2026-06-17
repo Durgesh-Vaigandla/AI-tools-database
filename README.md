@@ -8,7 +8,7 @@ A community-driven, open-source database of AI tools for developers, designers, 
 
 ## 📊 Live Statistics
 
-- **Total Tools**: 43
+- **Total Tools**: 44
 - **Categories**: 12
 - **Contributors**: ![Contributors](https://img.shields.io/github/contributors/Durgesh-Vaigandla/ai-tools-database)
 - **Last Updated**: ![Last Commit](https://img.shields.io/github/last-commit/Durgesh-Vaigandla/ai-tools-database/main)
@@ -103,7 +103,7 @@ npm run stats       # Generate database statistics
 | **Education** | Learning platforms, tutoring systems, educational content creation, and study aids | 4 |
 | **Audio & Music** | Music generation, audio editing, voice synthesis, and sound design tools | 3 |
 | **Video** | Video editing, generation, animation, and multimedia content creation tools | 3 |
-| **Data Science** | Data analysis, machine learning, visualization, and statistical tools | 3 |
+| **Data Science** | Data analysis, machine learning, visualization, and statistical tools | 4 |
 | **Automation** | Workflow automation, API integration, and process optimization tools | 4 |
 
 ## 🤝 Contributing
@@ -236,7 +236,7 @@ Share your AI tools database updates on LinkedIn:
 🚀 Just updated our comprehensive AI Tools Database!
 
 📊 Current Stats:
-• 43+ AI tools across 12 categories
+• 44+ AI tools across 12 categories
 • Development, Design, and Content Creation tools
 • All tools verified and categorized
 
