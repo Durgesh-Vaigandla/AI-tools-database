@@ -70,5 +70,28 @@
     "submittedAt": "2024-01-15T10:00:00Z",
     "lastUpdated": "2024-01-15T10:00:00Z",
     "verificationStatus": "verified"
+  },
+  {
+    "id": "roblox-gui-maker",
+    "name": "Roblox GUI Maker",
+    "description": "Free AI tool for Roblox developers that generates Roblox Studio ScreenGui layouts and starter Lua code from natural language prompts.",
+    "category": "development",
+    "pricing": "Free",
+    "link": "https://robloxguimaker.dev/",
+    "tags": [
+      "roblox",
+      "ui",
+      "lua",
+      "game-development",
+      "prototyping"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "rating": 0,
+    "submittedBy": "chugzb",
+    "submittedAt": "2026-06-18T11:14:00Z",
+    "lastUpdated": "2026-06-18T11:14:00Z",
+    "verificationStatus": "pending"
   }
 ]
