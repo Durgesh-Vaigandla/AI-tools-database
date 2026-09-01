@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-08T19:16:16.289Z",
+  "lastUpdated": "2026-09-01T16:45:53.105Z",
   "version": "1.0.0",
-  "totalTools": 43,
+  "totalTools": 44,
   "categories": [
     {
       "id": "audio",
@@ -36,7 +36,7 @@
     {
       "id": "development",
       "name": "Development",
-      "count": 3
+      "count": 4
     },
     {
       "id": "education",
@@ -110,6 +110,29 @@
       "submittedAt": "2026-04-08T00:00:00Z",
       "lastUpdated": "2026-04-08T00:00:00Z",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "agent-coordinator",
+      "name": "Agent Coordinator",
+      "description": "Per-user Codex skill that turns complex work into bounded dependency graphs with explicit acceptance criteria, revisioned local state, reconciliation before retry, and optional specialists or inline execution.",
+      "category": "development",
+      "pricing": "Free",
+      "link": "https://github.com/alanhoff/agent-coordinator",
+      "tags": [
+        "codex",
+        "workflow",
+        "coordination",
+        "developer-tools",
+        "open-source"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 0,
+      "submittedBy": "alanhoff",
+      "submittedAt": "2026-09-01T16:45:13Z",
+      "lastUpdated": "2026-09-01T16:45:13Z",
+      "verificationStatus": "pending"
     },
     {
       "id": "akkio",

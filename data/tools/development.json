@@ -1,5 +1,28 @@
 [
   {
+    "id": "agent-coordinator",
+    "name": "Agent Coordinator",
+    "description": "Per-user Codex skill that turns complex work into bounded dependency graphs with explicit acceptance criteria, revisioned local state, reconciliation before retry, and optional specialists or inline execution.",
+    "category": "development",
+    "pricing": "Free",
+    "link": "https://github.com/alanhoff/agent-coordinator",
+    "tags": [
+      "codex",
+      "workflow",
+      "coordination",
+      "developer-tools",
+      "open-source"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "rating": 0,
+    "submittedBy": "alanhoff",
+    "submittedAt": "2026-09-01T16:45:13Z",
+    "lastUpdated": "2026-09-01T16:45:13Z",
+    "verificationStatus": "pending"
+  },
+  {
     "id": "cursor-ai",
     "name": "Cursor AI",
     "description": "AI-first code editor built for pair programming with AI. Features advanced code completion, chat interface, and seamless integration with multiple AI models.",
