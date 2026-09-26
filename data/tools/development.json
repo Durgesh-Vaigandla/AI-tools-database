@@ -70,5 +70,27 @@
     "submittedAt": "2024-01-15T10:00:00Z",
     "lastUpdated": "2024-01-15T10:00:00Z",
     "verificationStatus": "verified"
+  },
+  {
+    "id": "codex-quota-overlay",
+    "name": "Codex Quota Overlay",
+    "description": "Independent Windows desktop companion for the Codex app. Displays reported usage limits and reset windows, with a local Quota Center for pace, forecast, history, and activity views.",
+    "category": "development",
+    "pricing": "Free",
+    "link": "https://github.com/cpys/codex-quota-overlay",
+    "tags": [
+      "windows",
+      "codex",
+      "quota",
+      "usage-tracking",
+      "open-source"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "submittedBy": "cpys",
+    "submittedAt": "2026-09-26T09:02:44Z",
+    "lastUpdated": "2026-09-26T09:02:44Z",
+    "verificationStatus": "pending"
   }
 ]
