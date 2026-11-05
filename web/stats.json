@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T20:38:39.640Z",
+  "lastUpdated": "2026-11-05T20:40:41.190Z",
   "totalTools": 10200,
   "totalCategories": 12,
   "categories": {
@@ -20,9 +20,9 @@
   "popular": 3506,
   "new": 2054,
   "pricing": {
-    "Freemium": 9971,
     "Free": 149,
-    "Subscription": 59,
-    "Paid": 21
+    "Freemium": 9971,
+    "Paid": 21,
+    "Subscription": 59
   }
 }
