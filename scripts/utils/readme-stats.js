@@ -113,7 +113,9 @@ function updateWebStats(stats) {
     'robots.txt',
     'sitemap.xml',
     'stats.json',
-    'tools.json'
+    'tools.json',
+    'tools.csv',
+    'llms.txt'
   ];
 
   filesToMirror.forEach(fileName => {

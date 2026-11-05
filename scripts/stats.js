@@ -3,6 +3,7 @@ const path = require('path');
 const { readCategoryTools } = require('./utils/category-tools');
 const { updateReadmeStats, updateWebStats } = require('./utils/readme-stats');
 const { aggregateTools } = require('./aggregate');
+const { exportDatabase } = require('./export');
 
 function generateStats() {
   // Keep the aggregated API payload in sync when stats are regenerated.
@@ -70,6 +71,7 @@ function generateStats() {
   fs.writeFileSync(statsFile, JSON.stringify(stats, null, 2));
   updateReadmeStats(stats);
   updateWebStats(stats);
+  exportDatabase();
   console.log(`\n✅ Stats updated: ${totalTools} total tools`);
   console.log(`   Categories: ${stats.totalCategories}`);
   console.log(`   Featured: ${featured}, Popular: ${popular}, New: ${newTools}`);

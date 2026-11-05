@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-04-08T19:16:16.291Z",
-  "totalTools": 43,
+  "lastUpdated": "2026-11-05T20:38:39.640Z",
+  "totalTools": 10200,
   "totalCategories": 12,
   "categories": {
-    "audio": 3,
-    "automation": 4,
-    "business": 5,
-    "content": 3,
-    "data-science": 3,
-    "design": 3,
-    "development": 3,
-    "education": 4,
-    "marketing": 4,
-    "productivity": 4,
-    "research": 4,
-    "video": 3
+    "audio": 850,
+    "automation": 850,
+    "business": 850,
+    "content": 850,
+    "data-science": 850,
+    "design": 850,
+    "development": 850,
+    "education": 850,
+    "marketing": 850,
+    "productivity": 850,
+    "research": 850,
+    "video": 850
   },
-  "featured": 15,
-  "popular": 31,
-  "new": 4,
+  "featured": 1020,
+  "popular": 3506,
+  "new": 2054,
   "pricing": {
-    "Free": 3,
-    "Freemium": 30,
-    "Subscription": 3,
-    "Paid": 7
+    "Freemium": 9971,
+    "Free": 149,
+    "Subscription": 59,
+    "Paid": 21
   }
 }

@@ -1,0 +1,43 @@
+# AI Tools Database
+
+> An open-source, community-maintained database and API feed of 10,000+ curated AI tools across 12 categories. Includes verified metadata, pricing models, tags, ratings, and documentation for developers, researchers, and creators.
+
+## Canonical Data Endpoints
+- Complete JSON Feed: https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/tools.json
+- Complete CSV Dataset: https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/tools.csv
+- Live Statistics: https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/stats.json
+- Categories Definition: https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/categories.json
+
+## Categories (12)
+- development: Coding assistants, IDEs, code generation models, terminal agents (Cursor, Windsurf, Claude Code, Devin, DeepSeek Coder, Cline, Aider, Ollama)
+- automation: Multi-agent frameworks, workflow orchestrators, browser agents (CrewAI, LangGraph, AutoGen, Browser Use, Dify, Flowise, Make, n8n, Activepieces)
+- content: LLMs, reasoning models, copywriting assistants, creative writing tools (ChatGPT, DeepSeek, Claude, Google Gemini, Mistral Le Chat, Grammarly, Sudowrite)
+- design: Text-to-image, 3D generative assets, UI/UX prototyping (FLUX.1, Midjourney, DALL-E 3, Adobe Firefly, Canva Magic Studio, Tripo 3D, Recraft)
+- video: Text-to-video, avatar generation, automated video editing (Sora, Kling AI, Luma Dream Machine, Wan Video, HunyuanVideo, HeyGen, Synthesia, Descript, Opus Clip)
+- audio: Voice cloning, real-time speech synthesis, music generation (Cartesia Sonic, ElevenLabs, Suno, Udio, Whisper, Speechify, Fish Audio, Krisp)
+- productivity: Note-taking, automated meeting summaries, schedule optimization (Superhuman AI, Raycast AI, Screenpipe, Notion AI, Granola, Fathom, Motion)
+- business: Revenue intelligence, enterprise knowledge search, CRM assistants (Glean, ChatGPT Enterprise, Fin AI Agent, Gong, Beautiful.ai, Coda AI, Rows)
+- research: Academic literature discovery, citation analysis, paper summarizers (Stanford STORM, Semantic Scholar, SciSpace, Consensus, NotebookLM, Perplexity AI)
+- marketing: SEO content strategy, ad creative generators, social media growth (MarketMuse, Semrush AI, Anyword, AdCreative.ai, Pebblely, Taplio, Tweet Hunter)
+- education: Language tutoring, math solvers, flashcards, study tools (Duolingo Max, Photomath, Khanmigo, ELSA Speak, Speak, Quizlet AI, Vaia)
+- data-science: Text-to-SQL, predictive ML, reactive notebooks, vector databases (Vanna.ai, Marimo, Jupyter AI, Hex Magic, Dataiku, PandasAI, MindsDB)
+
+## Schema Specification
+Each tool object in `data/tools.json` implements:
+- `id`: Unique lowercase kebab-case slug (string)
+- `name`: Official display name (string)
+- `description`: Summary of capabilities (string, 10-500 chars)
+- `category`: Primary category slug (enum)
+- `pricing`: Free | Freemium | Paid | Subscription
+- `link`: Official canonical website URL
+- `tags`: Array of relevant keyword strings
+- `rating`: Average user rating (0-5 number)
+- `featured`: Boolean flag for prominent tools
+- `popular`: Boolean flag for high-traction tools
+- `new`: Boolean flag for newly listed tools
+- `submittedAt` / `lastUpdated`: ISO 8601 UTC timestamps
+
+## Interactive Web Explorer
+- Web directory: https://durgesh-vaigandla.github.io/ai-tools-database/
+- GitHub repository: https://github.com/Durgesh-Vaigandla/ai-tools-database
+

@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Canonical Sitemaps and LLM manifest
 Sitemap: https://durgesh-vaigandla.github.io/ai-tools-database/sitemap.xml
+# LLM Manifest
+# https://durgesh-vaigandla.github.io/ai-tools-database/llms.txt

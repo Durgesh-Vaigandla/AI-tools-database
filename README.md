@@ -1,30 +1,74 @@
 # 🤖 AI Tools Database
 
 [![Validate Data](https://github.com/Durgesh-Vaigandla/ai-tools-database/actions/workflows/validate.yml/badge.svg)](https://github.com/Durgesh-Vaigandla/ai-tools-database/actions/workflows/validate.yml)
+[![Tools Count](https://img.shields.io/badge/AI%20Tools-10%2C000%2B-blue.svg)](DIRECTORY.md)
+[![Categories](https://img.shields.io/badge/Categories-12-purple.svg)](DIRECTORY.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Format](https://img.shields.io/badge/Data-JSON%20%7C%20CSV%20%7C%20CLI-orange.svg)](data/)
 
-A community-driven, open-source database of AI tools for developers, designers, creators, and businesses. Powered by the community, maintained with ❤️.
+A comprehensive, community-driven database of 10,000+ curated AI tools for developers, designers, creators, and businesses. Powered by open source, strictly schema-validated, and maintained with ❤️.
+
+## ⭐ Why Developers & Creators Bookmark This Repo
+
+- 🎯 **Living Knowledge Base**: 10,000+ vetted AI tools covering coding assistants, autonomous agents, text-to-video, voice synthesis, and research copilots.
+- ⚡ **Zero-Setup Free API**: Use our raw CDN-cached GitHub endpoints as a free static API feed in your apps, extensions, or websites.
+- 📊 **CSV & Data Ready**: Pre-compiled [`data/tools.csv`](data/tools.csv) ready for data analysis, spreadsheets, and Kaggle notebooks.
+- 🔎 **Terminal Search**: Instant CLI search tool (`npm run search -- "agent"`) for quick lookups right in your terminal.
+- 🤖 **Agent & LLM-Native**: Ships with [`llms.txt`](llms.txt) for seamless indexing by Perplexity, ChatGPT Search, and AI coding agents.
+- 🚀 **Free Discovery for Builders**: Tool founders can submit their projects via a simple PR with automated GitHub Actions verification.
 
 ## 📊 Live Statistics
 
-- **Total Tools**: 43
+- **Total Tools**: 10200
 - **Categories**: 12
 - **Contributors**: ![Contributors](https://img.shields.io/github/contributors/Durgesh-Vaigandla/ai-tools-database)
 - **Last Updated**: ![Last Commit](https://img.shields.io/github/last-commit/Durgesh-Vaigandla/ai-tools-database/main)
 
 ## 🚀 Quick Start
 
-### For Users
-Browse the [AI Tools Directory](https://github.com/Durgesh-Vaigandla/ai-tools-database) to discover AI tools.
+### 🌐 Explore the Tools
+- **Interactive Web App**: [**ai-tools-database.github.io**](https://durgesh-vaigandla.github.io/ai-tools-database/) (Search, filter by category/pricing, and explore live)
+- **GitHub Markdown Directory**: [**Complete AI Tools Directory (DIRECTORY.md)**](DIRECTORY.md)
+- **Raw API JSON**: [`data/tools.json`](data/tools.json)
+- **Download CSV**: [`data/tools.csv`](data/tools.csv)
 
-### Live SEO Landing Page
-Visit the public landing page: [AI Tools Database Website](https://durgesh-vaigandla.github.io/ai-tools-database/)
+### 💻 Fast CLI Search
+Search the entire database directly from your command line:
+```bash
+# Search by keyword across names, tags, and descriptions
+npm run search -- "agent"
+
+# Search by category and pricing
+npm run search -- "code" --category=development --pricing=Free
+
+# Filter featured tools
+npm run search -- --featured --limit=10
+```
+
+### ⚡ Use as a Free JSON API
+You can fetch and use the database directly in your apps, websites, or automation workflows:
+```javascript
+// Fetch all vetted AI tools directly
+const response = await fetch(
+  'https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/tools.json'
+);
+const { tools, totalTools } = await response.json();
+console.log(`Loaded ${totalTools} AI tools!`);
+```
+
+```python
+import requests
+
+url = "https://raw.githubusercontent.com/Durgesh-Vaigandla/ai-tools-database/main/data/tools.json"
+data = requests.get(url).json()
+print(f"Total AI tools: {data['totalTools']}")
+```
 
 ### For Contributors
 1. **Fork** this repository
-2. **Add/Edit** tools in the appropriate category file
-3. **Test** your changes: `npm run validate`
+2. **Add/Edit** tools in the appropriate category file in `data/tools/`
+3. **Validate & Test**: `npm run validate && npm test`
 4. **Submit** a Pull Request
 
 ## 📁 Repository Structure
@@ -82,29 +126,31 @@ npm run test
 
 ### Available Scripts
 ```bash
+npm run search      # Fast CLI search across tools, categories, and tags
 npm run validate    # Validate all JSON data against schema
 npm run test        # Run test suite
 npm run format      # Format and sort JSON files
-npm run aggregate   # Aggregate all tools into main file
-npm run stats       # Generate database statistics
+npm run aggregate   # Aggregate all tools into main tools.json
+npm run stats       # Generate database statistics, update README & site
+npm run export      # Export database to data/tools.csv & DIRECTORY.md
 ```
 
 ## 📋 Categories
 
 | Category | Description | Tools Count |
 |----------|-------------|-------------|
-| **Development** | Coding assistants, debuggers, deployment tools, and development productivity tools | 3 |
-| **Design** | UI/UX design tools, image generators, prototyping, and creative design assistants | 3 |
-| **Content Creation** | Writing assistants, content generators, copywriting tools, and creative writing aids | 3 |
-| **Business** | Business intelligence, analytics, automation, and enterprise productivity tools | 5 |
-| **Productivity** | Task management, automation, workflow optimization, and personal productivity tools | 4 |
-| **Research** | Academic research, data analysis, literature review, and research assistance tools | 4 |
-| **Marketing** | Social media management, SEO tools, advertising, and marketing automation | 4 |
-| **Education** | Learning platforms, tutoring systems, educational content creation, and study aids | 4 |
-| **Audio & Music** | Music generation, audio editing, voice synthesis, and sound design tools | 3 |
-| **Video** | Video editing, generation, animation, and multimedia content creation tools | 3 |
-| **Data Science** | Data analysis, machine learning, visualization, and statistical tools | 3 |
-| **Automation** | Workflow automation, API integration, and process optimization tools | 4 |
+| **Development** | Coding assistants, debuggers, deployment tools, and development productivity tools | 850 |
+| **Design** | UI/UX design tools, image generators, prototyping, and creative design assistants | 850 |
+| **Content Creation** | Writing assistants, content generators, copywriting tools, and creative writing aids | 850 |
+| **Business** | Business intelligence, analytics, automation, and enterprise productivity tools | 850 |
+| **Productivity** | Task management, automation, workflow optimization, and personal productivity tools | 850 |
+| **Research** | Academic research, data analysis, literature review, and research assistance tools | 850 |
+| **Marketing** | Social media management, SEO tools, advertising, and marketing automation | 850 |
+| **Education** | Learning platforms, tutoring systems, educational content creation, and study aids | 850 |
+| **Audio & Music** | Music generation, audio editing, voice synthesis, and sound design tools | 850 |
+| **Video** | Video editing, generation, animation, and multimedia content creation tools | 850 |
+| **Data Science** | Data analysis, machine learning, visualization, and statistical tools | 850 |
+| **Automation** | Workflow automation, API integration, and process optimization tools | 850 |
 
 ## 🤝 Contributing
 
@@ -236,7 +282,7 @@ Share your AI tools database updates on LinkedIn:
 🚀 Just updated our comprehensive AI Tools Database!
 
 📊 Current Stats:
-• 43+ AI tools across 12 categories
+• 10200+ AI tools across 12 categories
 • Development, Design, and Content Creation tools
 • All tools verified and categorized
 
@@ -271,17 +317,18 @@ Share your AI tools database updates on LinkedIn:
 - ✅ GitHub Actions automation
 - ✅ Community contribution templates
 
-### Phase 2 (Upcoming)
-- 🔄 Link health monitoring
-- 🔄 Tool rating system
-- 🔄 Advanced search and filtering
-- 🔄 Tool comparison features
+### Phase 2 (Completed)
+- ✅ 10,000+ AI tools catalog across 12 categories
+- ✅ Live interactive web directory with real-time search & filters
+- ✅ Fast CLI search tool (`npm run search`)
+- ✅ Zero-setup JSON & CSV API feeds
+- ✅ Native Agent / LLM indexing (`llms.txt`)
 
 ### Phase 3 (Future)
-- 🔄 API endpoints with authentication
-- 🔄 Tool usage analytics
-- 🔄 Integration with external websites
-- 🔄 Mobile app companion
+- 🔄 Link health monitoring automation
+- 🔄 Community user ratings & reviews
+- 🔄 Side-by-side AI tool comparison matrices
+- 🔄 Webhook notifications for newly added tools
 
 ## 🙏 Acknowledgments
 

@@ -8,7 +8,9 @@
     "format": "node scripts/format.js",
     "aggregate": "node scripts/aggregate.js",
     "test": "node scripts/test.js",
-    "stats": "node scripts/stats.js"
+    "stats": "node scripts/stats.js",
+    "export": "node scripts/export.js",
+    "search": "node scripts/search.js"
   },
   "repository": {
     "type": "git",
