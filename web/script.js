@@ -51,6 +51,110 @@ let visibleCount = PAGE_SIZE;
 const linkIcon = '<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14l4-4"></path><path d="M7.5 16.5l-2 2a3 3 0 104.2 4.2l2-2"></path><path d="M16.5 7.5l2-2a3 3 0 10-4.2-4.2l-2 2"></path></svg>';
 const tagIcon = '<svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8 0L3.4 13.4a2 2 0 010-2.8L10.6 3.4a2 2 0 011.4-.6H19a2 2 0 012 2v7a2 2 0 01-.6 1.4z"></path><circle cx="16.5" cy="7.5" r="1.2"></circle></svg>';
 
+// Append referral and citation query parameters for outbound links from the website (not raw API)
+// This ensures creators, webmasters, and visitors can easily navigate back to discover 10,200+ tools.
+function getWebDestinationUrl(rawUrl) {
+  if (!rawUrl || rawUrl === '#' || rawUrl.startsWith('javascript:')) return '#';
+  try {
+    const parsed = new URL(rawUrl);
+    if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+      if (!parsed.searchParams.has('ref')) {
+        parsed.searchParams.set('ref', 'https://durgesh-vaigandla.github.io/AI-tools-database/');
+      }
+      if (!parsed.searchParams.has('utm_source')) {
+        parsed.searchParams.set('utm_source', 'durgesh-vaigandla.github.io');
+      }
+      if (!parsed.searchParams.has('utm_medium')) {
+        parsed.searchParams.set('utm_medium', 'directory');
+      }
+      if (!parsed.searchParams.has('utm_campaign')) {
+        parsed.searchParams.set('utm_campaign', 'ai-tools-database');
+      }
+      if (!parsed.searchParams.has('utm_content')) {
+        parsed.searchParams.set('utm_content', 'explore_more_tools');
+      }
+    }
+    return parsed.toString();
+  } catch (_e) {
+    const sep = rawUrl.includes('?') ? '&' : '?';
+    return `${rawUrl}${sep}ref=https://durgesh-vaigandla.github.io/AI-tools-database/&utm_source=durgesh-vaigandla.github.io`;
+  }
+}
+
+function showCitationSpotlight(tool) {
+  const spotlight = document.getElementById('citation-spotlight');
+  if (!spotlight) return;
+
+  const outbound = getWebDestinationUrl(tool.link);
+  spotlight.className = 'mt-4 mb-2 rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 dark:border-amber-400/40 dark:bg-amber-400/10';
+  spotlight.innerHTML = `
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="rounded bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">📌 Citation Link</span>
+          <h3 class="text-base font-bold text-black dark:text-white">${tool.name || 'Tool'}</h3>
+          <span class="text-xs text-black/60 dark:text-white/60">(${tool.pricing || 'Freemium'})</span>
+        </div>
+        <p class="mt-1 text-xs text-black/75 dark:text-white/75">${tool.description || ''}</p>
+        <p class="mt-1.5 text-[11px] text-black/60 dark:text-white/60">
+          Discovered on <strong>AI Tools Database</strong>. Explore <strong>10,200+</strong> more curated AI tools below!
+        </p>
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        <a href="${outbound}" target="_blank" rel="noopener noreferrer" class="rounded border border-black/40 px-3 py-1.5 text-xs font-semibold hover:bg-black hover:text-white dark:border-white/40 dark:hover:bg-white dark:hover:text-black">Visit Tool</a>
+        <button id="clear-spotlight-btn" class="rounded bg-black px-3 py-1.5 text-xs font-semibold text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80">Explore All Tools</button>
+      </div>
+    </div>
+  `;
+
+  const clearBtn = document.getElementById('clear-spotlight-btn');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      spotlight.classList.add('hidden');
+      resetAllFilters();
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState(null, '', window.location.pathname);
+      }
+    });
+  }
+}
+
+function handleUrlQueryParams() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const toolParam = urlParams.get('tool') || urlParams.get('id');
+  const queryParam = urlParams.get('q') || urlParams.get('search');
+  const catParam = urlParams.get('category') || urlParams.get('cat');
+  const priceParam = urlParams.get('pricing');
+
+  if (toolParam) {
+    const targetTool = allToolsData.find(t =>
+      (t.id && t.id.toLowerCase() === toolParam.toLowerCase()) ||
+      (t.name && t.name.toLowerCase() === toolParam.toLowerCase())
+    );
+    if (targetTool) {
+      showCitationSpotlight(targetTool);
+      currentSearch = targetTool.name;
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) searchInput.value = targetTool.name;
+      document.title = `${targetTool.name} – AI Tools Database (10,200+ Tools)`;
+    }
+  } else if (queryParam) {
+    currentSearch = queryParam;
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = queryParam;
+  }
+
+  if (catParam) {
+    activeCategory = catParam;
+    updateCategoryPillStyles();
+  }
+
+  if (priceParam) {
+    activePricing = priceParam;
+    updatePricingPillStyles();
+  }
+}
+
 function getFilteredAndSortedTools() {
   return allToolsData.filter(tool => {
     if (activeCategory !== 'all' && tool.category !== activeCategory) return false;
@@ -130,6 +234,10 @@ function renderTools() {
       ? 'border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
       : 'border-black/30 text-black/75 dark:border-white/30 dark:text-white/75';
 
+    const outboundUrl = getWebDestinationUrl(tool.link);
+    const shareUrl = `https://durgesh-vaigandla.github.io/AI-tools-database/?tool=${encodeURIComponent(tool.id || tool.slug || '')}`;
+    const citationText = `${tool.name} – ${tool.description} (Discovered via AI Tools Database: ${shareUrl})`;
+
     return `
       <article class="flex flex-col justify-between rounded-xl border border-black/20 bg-black/[0.02] p-4 transition duration-150 hover:-translate-y-0.5 hover:border-black/40 hover:bg-black/[0.05] dark:border-white/20 dark:bg-white/[0.02] dark:hover:border-white/40 dark:hover:bg-white/[0.05]">
         <div>
@@ -148,9 +256,12 @@ function renderTools() {
         </div>
         <div class="mt-4 pt-3 border-t border-black/10 dark:border-white/10">
           <div class="flex flex-wrap gap-1 mb-3">${tagsHtml}</div>
-          <div class="flex items-center justify-between">
-            <a class="inline-flex items-center gap-1 text-xs font-semibold underline underline-offset-4 text-black hover:opacity-80 dark:text-white" href="${tool.link || '#'}" target="_blank" rel="noopener noreferrer">${linkIcon}Visit Website</a>
-            <button data-copylink="${tool.link}" class="copy-tool-link text-[11px] text-black/50 hover:text-black dark:text-white/50 dark:hover:text-white">Copy Link</button>
+          <div class="flex items-center justify-between gap-2">
+            <a class="inline-flex items-center gap-1 text-xs font-semibold underline underline-offset-4 text-black hover:opacity-80 dark:text-white" href="${outboundUrl}" target="_blank" rel="noopener noreferrer">${linkIcon}Visit Website</a>
+            <div class="flex items-center gap-1.5">
+              <button data-citation="${citationText}" class="copy-tool-citation rounded border border-black/15 bg-black/[0.03] px-2 py-0.5 text-[10px] font-medium text-black/70 hover:bg-black/10 dark:border-white/15 dark:bg-white/[0.04] dark:text-white/70 dark:hover:bg-white/10" title="Copy citation with back-link to explore more">Cite</button>
+              <button data-sharelink="${shareUrl}" class="copy-tool-share rounded border border-black/15 bg-black/[0.03] px-2 py-0.5 text-[10px] font-medium text-black/70 hover:bg-black/10 dark:border-white/15 dark:bg-white/[0.04] dark:text-white/70 dark:hover:bg-white/10" title="Copy shareable link to this tool on AI Tools Database">Share</button>
+            </div>
           </div>
         </div>
       </article>
@@ -184,11 +295,27 @@ function renderTools() {
     });
   });
 
-  // Bind copy link handlers
-  container.querySelectorAll('.copy-tool-link').forEach(btn => {
+  // Bind citation click handlers
+  container.querySelectorAll('.copy-tool-citation').forEach(btn => {
     btn.addEventListener('click', async (e) => {
       e.preventDefault();
-      const link = btn.getAttribute('data-copylink');
+      const citation = btn.getAttribute('data-citation');
+      if (citation) {
+        try {
+          await navigator.clipboard.writeText(citation);
+          const orig = btn.textContent;
+          btn.textContent = 'Cited!';
+          setTimeout(() => { btn.textContent = orig; }, 1500);
+        } catch (_) {}
+      }
+    });
+  });
+
+  // Bind share link handlers
+  container.querySelectorAll('.copy-tool-share').forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const link = btn.getAttribute('data-sharelink');
       if (link) {
         try {
           await navigator.clipboard.writeText(link);
@@ -339,6 +466,7 @@ async function loadLatestTools() {
     allToolsData = Array.isArray(data.tools) ? data.tools : [];
 
     setupDirectoryControls(data.categories || []);
+    handleUrlQueryParams();
     renderTools();
   } catch (error) {
     const container = document.getElementById('latest-tools');
@@ -487,6 +615,19 @@ function setupCopyButtons() {
       }
     });
   });
+
+  const globalCitationBtn = document.getElementById('copy-global-citation-btn');
+  const globalCitationCode = document.getElementById('global-citation-code');
+  if (globalCitationBtn && globalCitationCode) {
+    globalCitationBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(globalCitationCode.textContent);
+        const orig = globalCitationBtn.textContent;
+        globalCitationBtn.textContent = 'Citation Copied!';
+        setTimeout(() => { globalCitationBtn.textContent = orig; }, 1800);
+      } catch (_) {}
+    });
+  }
 }
 
 loadStats();

@@ -370,6 +370,8 @@
           <button id="reset-filters" class="hidden underline hover:text-black dark:hover:text-white">Reset filters</button>
         </div>
 
+        <div id="citation-spotlight" class="mt-4 hidden"></div>
+
         <div id="latest-tools" class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           <article class="rounded-xl border border-black/20 p-4 text-sm text-black/60 dark:border-white/20 dark:text-white/60">Loading directory...</article>
         </div>
@@ -385,6 +387,21 @@
         <h2 class="text-xl font-semibold">Top Categories Snapshot</h2>
         <p id="category-snapshot" class="mt-3 text-sm text-black/70 dark:text-white/70">Development, Design, Content Creation, Business, Productivity, and more.</p>
         <p class="mt-5 text-xs text-black/50 dark:text-white/50">Last sync: <span id="last-updated">-</span></p>
+      </section>
+
+      <section class="mt-10 rounded-xl border border-black/20 bg-black/[0.02] p-6 dark:border-white/20 dark:bg-white/[0.02]">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-base font-bold">Citation & Attribution</h2>
+            <p class="mt-1 text-xs text-black/70 dark:text-white/70">
+              Referencing tools from this database in research, articles, or projects? Please cite our open-source catalog so others can explore the full dataset.
+            </p>
+            <code id="global-citation-code" class="mt-2 block rounded border border-black/10 bg-black/5 p-2.5 text-[11px] font-mono text-black/80 dark:border-white/10 dark:bg-white/5 dark:text-white/80 select-all">AI Tools Database (2026). Open Source AI Tools Directory &amp; Dataset (10,200+ tools). https://durgesh-vaigandla.github.io/AI-tools-database/</code>
+          </div>
+          <button id="copy-global-citation-btn" class="shrink-0 rounded-md border border-black/30 bg-black/5 px-4 py-2 text-xs font-semibold hover:bg-black hover:text-white dark:border-white/30 dark:bg-white/10 dark:hover:bg-white dark:hover:text-black">
+            Copy Citation
+          </button>
+        </div>
       </section>
 
       <footer class="mt-20 border-t border-black/20 pt-6 text-sm text-black/65 dark:border-white/20 dark:text-white/65">

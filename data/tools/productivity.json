@@ -1,6 +1,6 @@
 {
   "_category": "productivity",
-  "_count": 850,
+  "_count": 851,
   "tools": [
     {
       "id": "200-chatgpt-mega-prompts-for-solopreneurs",
@@ -6574,6 +6574,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gptgeminigrok-ai",
+      "name": "GPTGeminiGrok.AI",
+      "description": "Browser-based multi-model AI workspace combining GPT, Claude, Grok, Gemini, and AI image generation for analysis, writing, research, and everyday productivity.",
+      "category": "productivity",
+      "pricing": "Freemium",
+      "link": "https://trygrokai.asia/",
+      "tags": [
+        "chatbot",
+        "multi-model",
+        "productivity",
+        "research",
+        "image-generation"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "xianyu110",
+      "submittedAt": "2026-08-01T10:00:00Z",
+      "lastUpdated": "2026-08-01T10:00:00Z",
       "verificationStatus": "verified"
     },
     {

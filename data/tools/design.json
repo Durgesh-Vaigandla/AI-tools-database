@@ -1176,6 +1176,28 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "aiimagechanger-app",
+    "name": "AIImageChanger.app",
+    "description": "Browser-based AI image editor for changing backgrounds, objects, clothing, colors, and styles with plain-language prompts while preserving details that should stay unchanged.",
+    "category": "design",
+    "pricing": "Freemium",
+    "link": "https://aiimagechanger.app/",
+    "tags": [
+      "image-editing",
+      "design",
+      "generative-ai",
+      "photo-editing"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "rating": 4.5,
+    "submittedBy": "nien-cheng",
+    "submittedAt": "2026-08-01T10:00:00Z",
+    "lastUpdated": "2026-08-01T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
     "id": "ailogocreator",
     "name": "Ailogocreator",
     "description": "AI logo generator for creating professional logos quickly.",
@@ -6525,6 +6547,28 @@
     "submittedBy": "community",
     "submittedAt": "2024-06-15T10:00:00Z",
     "lastUpdated": "2024-11-01T10:00:00Z",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "gpt-image-2",
+    "name": "GPT Image 2",
+    "description": "AI image generator and editor for commercial visuals, banners, ecommerce, and social assets from prompts or reference images.",
+    "category": "design",
+    "pricing": "Freemium",
+    "link": "https://gptimage2.asia/",
+    "tags": [
+      "image-generation",
+      "design",
+      "ecommerce",
+      "commercial-visuals"
+    ],
+    "featured": false,
+    "popular": false,
+    "new": true,
+    "rating": 4.4,
+    "submittedBy": "xianyu110",
+    "submittedAt": "2026-08-01T10:00:00Z",
+    "lastUpdated": "2026-08-01T10:00:00Z",
     "verificationStatus": "verified"
   },
   {

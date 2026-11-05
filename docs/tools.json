@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T20:38:39.609Z",
+  "lastUpdated": "2026-11-05T20:59:44.702Z",
   "version": "1.0.0",
-  "totalTools": 10200,
+  "totalTools": 10213,
   "categories": [
     {
       "id": "audio",
@@ -11,7 +11,7 @@
     {
       "id": "automation",
       "name": "Automation",
-      "count": 850
+      "count": 851
     },
     {
       "id": "business",
@@ -26,17 +26,17 @@
     {
       "id": "data-science",
       "name": "Data science",
-      "count": 850
+      "count": 851
     },
     {
       "id": "design",
       "name": "Design",
-      "count": 850
+      "count": 852
     },
     {
       "id": "development",
       "name": "Development",
-      "count": 850
+      "count": 854
     },
     {
       "id": "education",
@@ -46,22 +46,22 @@
     {
       "id": "marketing",
       "name": "Marketing",
-      "count": 850
+      "count": 851
     },
     {
       "id": "productivity",
       "name": "Productivity",
-      "count": 850
+      "count": 851
     },
     {
       "id": "research",
       "name": "Research",
-      "count": 850
+      "count": 851
     },
     {
       "id": "video",
       "name": "Video",
-      "count": 850
+      "count": 852
     }
   ],
   "tools": [
@@ -3267,6 +3267,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "agent-coordinator",
+      "name": "Agent Coordinator",
+      "description": "Per-user Codex skill that turns complex work into bounded dependency graphs with explicit acceptance criteria, revisioned local state, reconciliation before retry, and optional specialists or inline execution.",
+      "category": "development",
+      "pricing": "Free",
+      "link": "https://github.com/alanhoff/agent-coordinator",
+      "tags": [
+        "codex",
+        "workflow",
+        "coordination",
+        "developer-tools",
+        "open-source"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.7,
+      "submittedBy": "alanhoff",
+      "submittedAt": "2026-09-01T16:45:13Z",
+      "lastUpdated": "2026-09-01T16:45:13Z",
       "verificationStatus": "verified"
     },
     {
@@ -11371,6 +11394,28 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "aiimagechanger-app",
+      "name": "AIImageChanger.app",
+      "description": "Browser-based AI image editor for changing backgrounds, objects, clothing, colors, and styles with plain-language prompts while preserving details that should stay unchanged.",
+      "category": "design",
+      "pricing": "Freemium",
+      "link": "https://aiimagechanger.app/",
+      "tags": [
+        "image-editing",
+        "design",
+        "generative-ai",
+        "photo-editing"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "nien-cheng",
+      "submittedAt": "2026-08-01T10:00:00Z",
+      "lastUpdated": "2026-08-01T10:00:00Z",
       "verificationStatus": "verified"
     },
     {
@@ -33728,6 +33773,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "callurl",
+      "name": "CallURL",
+      "description": "Build a free Call App in 60 seconds, give it a job, share it by link or QR, and let it handle calls for workflows like lead qualification, quote requests, surveys, support, and screening.",
+      "category": "automation",
+      "pricing": "Free",
+      "link": "https://callurl.com",
+      "tags": [
+        "call-automation",
+        "workflow",
+        "lead-qualification",
+        "customer-support",
+        "no-signup"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "outwrit",
+      "submittedAt": "2026-06-17T00:00:00Z",
+      "lastUpdated": "2026-06-17T00:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "calorio",
       "name": "Calorio",
       "description": "Calorio is a voice-based calorie tracking app powered by AI.",
@@ -43515,6 +43583,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "codex-quota-overlay",
+      "name": "Codex Quota Overlay",
+      "description": "Independent Windows desktop companion for the Codex app. Displays reported usage limits and reset windows, with a local Quota Center for pace, forecast, history, and activity views.",
+      "category": "development",
+      "pricing": "Free",
+      "link": "https://github.com/cpys/codex-quota-overlay",
+      "tags": [
+        "windows",
+        "codex",
+        "quota",
+        "usage-tracking",
+        "open-source"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "cpys",
+      "submittedAt": "2026-09-26T09:02:44Z",
+      "lastUpdated": "2026-09-26T09:02:44Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "codey-ai",
       "name": "Codey AI",
       "description": "Codey AI is an AI assistant specialized in coding, providing images and sources.",
@@ -50774,6 +50865,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "cyanvid",
+      "name": "Cyanvid",
+      "description": "AI video generator SaaS that turns text and images into videos with modern models. Built for creators and marketers who want ideas in motion without a heavy production stack.",
+      "category": "video",
+      "pricing": "Freemium",
+      "link": "https://cyanvid.com",
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "image-to-video",
+        "saas",
+        "creators"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "kbwzy",
+      "submittedAt": "2026-10-28T03:17:14Z",
+      "lastUpdated": "2026-10-28T03:17:14Z",
       "verificationStatus": "verified"
     },
     {
@@ -71512,6 +71626,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "fpvtune",
+      "name": "FPVTune",
+      "description": "Open-source AI assistant for FPV drone pilots. Upload Betaflight blackbox logs to analyze gyro noise, resonance, prop wash, and configuration signals, then get practical PID and filter tuning suggestions.",
+      "category": "data-science",
+      "pricing": "Freemium",
+      "link": "https://fpvtune.com/",
+      "tags": [
+        "data-analysis",
+        "machine-learning",
+        "drones",
+        "betaflight",
+        "pid-tuning"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "chugzb",
+      "submittedAt": "2026-06-17T09:52:00Z",
+      "lastUpdated": "2026-06-17T09:52:00Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "fracternal",
       "name": "Fracternal",
       "description": "AI-powered platform connecting businesses with fractional executives for flexible leadership.",
@@ -78487,6 +78624,28 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "gpt-image-2",
+      "name": "GPT Image 2",
+      "description": "AI image generator and editor for commercial visuals, banners, ecommerce, and social assets from prompts or reference images.",
+      "category": "design",
+      "pricing": "Freemium",
+      "link": "https://gptimage2.asia/",
+      "tags": [
+        "image-generation",
+        "design",
+        "ecommerce",
+        "commercial-visuals"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.4,
+      "submittedBy": "xianyu110",
+      "submittedAt": "2026-08-01T10:00:00Z",
+      "lastUpdated": "2026-08-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "gpt-in-whatsapp-with-text-and-images",
       "name": "GPT In Whatsapp With Text And Images",
       "description": "AI-powered WhatsApp assistant for content creation, image generation, and instant support.",
@@ -78939,6 +79098,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gptgeminigrok-ai",
+      "name": "GPTGeminiGrok.AI",
+      "description": "Browser-based multi-model AI workspace combining GPT, Claude, Grok, Gemini, and AI image generation for analysis, writing, research, and everyday productivity.",
+      "category": "productivity",
+      "pricing": "Freemium",
+      "link": "https://trygrokai.asia/",
+      "tags": [
+        "chatbot",
+        "multi-model",
+        "productivity",
+        "research",
+        "image-generation"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "xianyu110",
+      "submittedAt": "2026-08-01T10:00:00Z",
+      "lastUpdated": "2026-08-01T10:00:00Z",
       "verificationStatus": "verified"
     },
     {
@@ -87070,6 +87252,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "ideahunter",
+      "name": "IdeaHunter",
+      "description": "Helps solo founders research demand-backed app and micro-SaaS ideas using public market signals, buyer pain, MVP scope, validation steps, and monetization paths.",
+      "category": "research",
+      "pricing": "Freemium",
+      "link": "https://ideahunter.today",
+      "tags": [
+        "startup-ideas",
+        "market-research",
+        "idea-validation",
+        "founder-tools",
+        "micro-saas"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "happynocode",
+      "submittedAt": "2026-09-02T10:00:00Z",
+      "lastUpdated": "2026-09-02T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "idealensai",
       "name": "Idealensai",
       "description": "AI-powered platform for startups to validate business ideas with market insights.",
@@ -88550,6 +88755,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "imagineclip",
+      "name": "ImagineClip",
+      "description": "AI video generator for fun clips, avatar videos, stylized scenes, and shareable social content made from prompts, images, and effects.",
+      "category": "video",
+      "pricing": "Freemium",
+      "link": "https://imagineclip.com",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "avatar",
+        "social-content",
+        "creative-tools"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "JeremyGDM",
+      "submittedAt": "2026-06-16T05:08:34Z",
+      "lastUpdated": "2026-06-16T05:08:34Z",
       "verificationStatus": "verified"
     },
     {
@@ -149995,6 +150223,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "roblox-gui-maker",
+      "name": "Roblox GUI Maker",
+      "description": "Free AI tool for Roblox developers that generates Roblox Studio ScreenGui layouts and starter Lua code from natural language prompts.",
+      "category": "development",
+      "pricing": "Free",
+      "link": "https://robloxguimaker.dev/",
+      "tags": [
+        "roblox",
+        "ui",
+        "lua",
+        "game-development",
+        "prototyping"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "chugzb",
+      "submittedAt": "2026-06-18T11:14:00Z",
+      "lastUpdated": "2026-06-18T11:14:00Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "robly-com",
       "name": "Robly Com",
       "description": "Email marketing platform with AI-powered features to boost open rates and engagement.",
@@ -162365,6 +162616,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "socialecho",
+      "name": "SocialEcho",
+      "description": "AI workspace for publishing, engagement, listening, and analytics across 11 social platforms including Facebook, Instagram, TikTok, LinkedIn, and Threads.",
+      "category": "marketing",
+      "pricing": "Freemium",
+      "link": "https://www.socialecho.net/",
+      "tags": [
+        "social-media",
+        "marketing",
+        "publishing",
+        "analytics",
+        "automation"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "Samuel-Kuang",
+      "submittedAt": "2026-08-25T10:00:00Z",
+      "lastUpdated": "2026-08-25T10:00:00Z",
       "verificationStatus": "verified"
     },
     {
@@ -193493,6 +193767,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "webprompts-dev",
+      "name": "WebPrompts.dev",
+      "description": "Visual library of production-ready prompts for building websites, landing pages, UI sections, apps, and motion effects with AI coding tools.",
+      "category": "development",
+      "pricing": "Freemium",
+      "link": "https://webprompts.dev/",
+      "tags": [
+        "prompts",
+        "development",
+        "design",
+        "ui",
+        "productivity"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "zenanythin",
+      "submittedAt": "2026-08-01T10:00:00Z",
+      "lastUpdated": "2026-08-01T10:00:00Z",
       "verificationStatus": "verified"
     },
     {

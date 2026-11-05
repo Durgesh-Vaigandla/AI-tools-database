@@ -1,22 +1,22 @@
 # 📚 Complete AI Tools Directory
 
-> Curated catalog of **10200 tools** across **12 categories**.
+> Curated catalog of **10213 tools** across **12 categories**.
 > Last updated: Fri Nov 06 2026
 
 ## 🧭 Category Navigation
 
 - [Audio & Music (850)](#audio)
-- [Automation (850)](#automation)
+- [Automation (851)](#automation)
 - [Business (850)](#business)
 - [Content Creation (850)](#content)
-- [Data Science (850)](#data-science)
-- [Design (850)](#design)
-- [Development (850)](#development)
+- [Data Science (851)](#data-science)
+- [Design (852)](#design)
+- [Development (854)](#development)
 - [Education (850)](#education)
-- [Marketing (850)](#marketing)
-- [Productivity (850)](#productivity)
-- [Research (850)](#research)
-- [Video (850)](#video)
+- [Marketing (851)](#marketing)
+- [Productivity (851)](#productivity)
+- [Research (851)](#research)
+- [Video (852)](#video)
 
 ---
 
@@ -877,7 +877,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="automation"></a>📂 Automation (850 tools)
+## <a id="automation"></a>📂 Automation (851 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -1028,6 +1028,7 @@
 | [**Caleaz**](https://caleaz.com) ⭐ | `Freemium` | ★ 4.3 | `automation` | AI-powered scheduling web app for small businesses with calendar integration and automation. |
 | [**Calendarapp**](https://calendar-app.de) | `Freemium` | ★ 4.2 | `automation` `social-media` | CalendarApp automates appointment scheduling on social media, syncing with Google Calendar. |
 | [**Calendargenie**](https://calendar-genie.com) ⭐ 🆕 | `Freemium` | ★ 4.9 | `automation` `assistant` | AI-powered scheduling assistant that understands your day and automates calendar management. |
+| [**CallURL**](https://callurl.com) 🆕 | `Free` | ★ 4.5 | `call-automation` `workflow` `lead-qualification` | Build a free Call App in 60 seconds, give it a job, share it by link or QR, and let it handle calls for workflows like lead qualification, quote requests, surveys, support, and screening. |
 | [**Career Automate**](https://www.careerautomate.com) | `Freemium` | ★ 4.8 | `automation` | A platform to automate job applications, optimize resumes, and generate cover letters. |
 | [**Careergenie Io**](https://www.careergenie.io) | `Freemium` | ★ 4.8 | `automation` `visual` | A no-code visual programming platform for building web applications quickly. |
 | [**Careergpt**](https://www.careergpt.xyz) | `Freemium` | ★ 4.9 | `automation` `agent` | CareerGPT automates job search and candidate sourcing using multi-agent AI. |
@@ -3448,7 +3449,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="data-science"></a>📂 Data Science (850 tools)
+## <a id="data-science"></a>📂 Data Science (851 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -3797,6 +3798,7 @@
 | [**Folioprojects**](https://folioprojects.com) 🆕 | `Freemium` | ★ 4.8 | `data-science` | Project Portfolio Management SaaS with AI for dashboards, risk evaluation, and stakeholder communication. |
 | [**Formsflow**](https://formsflow.ai) | `Free` | ★ 4.6 | `data-science` `open-source` `automation` | Open-source low-code platform for forms, workflow automation, and analytics. |
 | [**Formula Generator**](https://formulagenerator.app) | `Freemium` | ★ 4.5 | `data-science` `generator` | AI toolkit for generating Excel formulas, VBA, Regex, and SQL queries. |
+| [**FPVTune**](https://fpvtune.com/) 🆕 | `Freemium` | ★ 4.5 | `data-analysis` `machine-learning` `drones` | Open-source AI assistant for FPV drone pilots. Upload Betaflight blackbox logs to analyze gyro noise, resonance, prop wash, and configuration signals, then get practical PID and filter tuning suggestions. |
 | [**Free Network Monitor**](https://freenetworkmonitor.click) | `Freemium` | ★ 4.5 | `data-science` | AI-powered, quantum-ready network monitor for security, vulnerability scans, and real-time alerts. |
 | [**Free Website Security Scan AI Powered**](https://vulnwatch.pro) | `Freemium` | ★ 4.8 | `data-science` | AI-powered cybersecurity assessment tool for website vulnerability detection and protection. |
 | [**Freshly AI**](https://freshly.ai) | `Freemium` | ★ 4.9 | `data-science` | Explores AI capabilities, offers AI tools, and provides AI value reports. |
@@ -4305,7 +4307,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="design"></a>📂 Design (850 tools)
+## <a id="design"></a>📂 Design (852 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -4368,6 +4370,7 @@
 | [**Aigentor**](https://aigentor.com) | `Freemium` | ★ 4.5 | `design` `generator` `chat` | Free AI image generators and AI character chats. |
 | [**Aihld**](https://AiHLD.tech) | `Freemium` | ★ 4.8 | `design` | AI-powered tool for designing optimized and scalable cloud architectures. |
 | [**Aihouse Com**](https://aihouse.com) | `Freemium` | ★ 4.1 | `design` `visual` `workflow` | AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals. |
+| [**AIImageChanger.app**](https://aiimagechanger.app/) 🆕 | `Freemium` | ★ 4.5 | `image-editing` `design` `generative-ai` | Browser-based AI image editor for changing backgrounds, objects, clothing, colors, and styles with plain-language prompts while preserving details that should stay unchanged. |
 | [**Ailogocreator**](https://www.ailogocreator.io) ⭐ | `Freemium` | ★ 4.4 | `design` `generator` | AI logo generator for creating professional logos quickly. |
 | [**Ailogomakerr Com**](https://ailogomakerr.com) | `Freemium` | ★ 4.2 | `design` `generator` | AI-powered logo and branding kit generator for businesses of all sizes. |
 | [**Aio**](https://aiowear.com) 🆕 | `Freemium` | ★ 4.3 | `design` | A fashion-tech platform for AI-powered clothing design, manufacturing, and reselling. |
@@ -4638,6 +4641,7 @@
 | [**Glorifyapp Com**](https://glorifyapp.com) | `Freemium` | ★ 4.4 | `design` `marketing` `visual` | Online graphic design tool for e-commerce businesses to create marketing visuals. |
 | [**Glyf 3d AI Art Generator**](https://glyf.in) | `Freemium` | ★ 4.7 | `design` `generator` `3d` | Mobile 3D design and AI art creation tool with extensive resources. |
 | [**Gnucleus AI**](https://www.gnucleus.ai) | `Freemium` | ★ 4.2 | `design` `3d` `images` | gNucleus generates 3D CAD models from text and images using GenAI, speeding up modeling. |
+| [**GPT Image 2**](https://gptimage2.asia/) 🆕 | `Freemium` | ★ 4.4 | `image-generation` `design` `ecommerce` | AI image generator and editor for commercial visuals, banners, ecommerce, and social assets from prompts or reference images. |
 | [**Gpts Fan**](https://gpts.fan) ⭐ | `Freemium` | ★ 4.5 | `design` | A platform for GPT designers to showcase and co-create GPTs. |
 | [**Gptsmith**](http://gptsmith.app) 🆕 | `Freemium` | ★ 4.6 | `design` `chat` | GPTSmith personalizes chatbots with unique URLs and custom designs via data upload. |
 | [**Gradegenius**](https://gradegenius.xyz) | `Freemium` | ★ 4.9 | `design` | A no-code platform to build, design, and launch web applications quickly. |
@@ -5162,7 +5166,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="development"></a>📂 Development (850 tools)
+## <a id="development"></a>📂 Development (854 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -5185,6 +5189,7 @@
 | [**Adsync AI Digital Marketing Solutions**](https://www.adsyncmarketing.com) | `Freemium` | ★ 4.4 | `development` `marketing` | AI-powered digital marketing agency providing real-time optimization and personalized strategies. |
 | [**Affable AI**](https://www.affable.ai) | `Freemium` | ★ 4.6 | `development` | UGC software and services to enhance customer engagement and drive sales. |
 | [**Affmedios Com**](https://affmedios.com) | `Freemium` | ★ 4.7 | `development` `marketing` | AI-powered click fraud protection for marketing budgets. |
+| [**Agent Coordinator**](https://github.com/alanhoff/agent-coordinator) 🆕 | `Free` | ★ 4.7 | `codex` `workflow` `coordination` | Per-user Codex skill that turns complex work into bounded dependency graphs with explicit acceptance criteria, revisioned local state, reconciliation before retry, and optional specialists or inline execution. |
 | [**Agent One**](https://agnt.one) 🆕 | `Freemium` | ★ 4.2 | `development` `chat` `agent` | No-code platform to build and host custom AI chatbots and agents. |
 | [**Agenthost AI**](https://www.agenthost.ai/) ⭐ | `Freemium` | ★ 4.5 | `development` `chat` `coding` | Platform to create, train, and monetize AI agents and chatbots without coding. |
 | [**Agentr**](https://agentr.global) | `Freemium` | ★ 4.4 | `development` `assistant` `agent` | AI-powered hiring assistant for reasoning-driven talent analysis and candidate identification. |
@@ -5379,6 +5384,7 @@
 | [**Codespell**](https://www.codespell.ai) 🆕 | `Freemium` | ★ 4.8 | `development` | AI tool for entire SDLC, accelerating code, testing, and DevOps. |
 | [**Codest**](https://wcodest.com) 🆕 | `Freemium` | ★ 4.9 | `development` | No-code website/e-commerce/funnels builder with AI-powered ad management. |
 | [**Codev**](https://www.co.dev) | `Freemium` | ★ 4.8 | `development` | AI-powered platform converting text to full-stack Next.js web applications. |
+| [**Codex Quota Overlay**](https://github.com/cpys/codex-quota-overlay) 🆕 | `Free` | ★ 4.6 | `windows` `codex` `quota` | Independent Windows desktop companion for the Codex app. Displays reported usage limits and reset windows, with a local Quota Center for pace, forecast, history, and activity views. |
 | [**Codiumai**](https://www.codium.ai) | `Freemium` | ★ 4.3 | `development` | AI-powered platform for code review, testing, and generation to improve code quality. |
 | [**Cogniflow**](https://app.cogniflow.ai/signup/) | `Freemium` | ★ 4.2 | `development` | No-code AI platform to build and deploy AI models from various data types. |
 | [**Collider AI**](https://cldr.ai) | `Freemium` | ★ 4.7 | `development` `marketing` | AI model for automated marketing campaigns, generating personalized content and boosting sales. |
@@ -5829,6 +5835,7 @@
 | [**Rispose Com**](https://rispose.com) | `Freemium` | ★ 4.2 | `development` `assistant` `chat` | Create a custom chatbot widget trained on your website info using OpenAI Assistant API. |
 | [**Rivit**](https://www.rivit.ai) | `Subscription` | ★ 4.9 | `development` | No-code AI tool building platform with LLM integrations and subscription options. |
 | [**Rize Capital**](https://rize.capital) | `Freemium` | ★ 4.5 | `development` `chat` `research` | AI-powered investment chatbot for real-time financial insights and simplified research. |
+| [**Roblox GUI Maker**](https://robloxguimaker.dev/) 🆕 | `Free` | ★ 4.5 | `roblox` `ui` `lua` | Free AI tool for Roblox developers that generates Roblox Studio ScreenGui layouts and starter Lua code from natural language prompts. |
 | [**Robodialog**](https://robodialog.com) | `Freemium` | ★ 4.2 | `development` `chat` | AI customer support platform with human support integration and no-code chatflow builder. |
 | [**Robofy AI Chatbot**](https://www.robofy.ai) | `Freemium` | ★ 4.6 | `development` `chat` | AI chatbot builder that uses website content to provide 24/7 customer service. |
 | [**Roborat Resume Parsing API**](https://www.leroborat.com) | `Freemium` | ★ 4.3 | `development` | AI-powered APIs for business document digitization, specializing in resume parsing. |
@@ -5987,6 +5994,7 @@
 | [**Web2llm**](https://web2llm.dev) | `Freemium` | ★ 4.9 | `development` `agent` | Keeps AI agents updated with latest documentation via browsing or adding scraped docs. |
 | [**Webapi AI 3 0**](https://webapi.ai) | `Freemium` | ★ 4.4 | `development` `chat` | GPT3/ChatGPT chatbot builder for customer support and data collection with API integration. |
 | [**Webfuse**](https://www.webfuse.com) 🆕 | `Freemium` | ★ 4.3 | `development` | Web augmentation platform to modify, share, and audit web interactions without code. |
+| [**WebPrompts.dev**](https://webprompts.dev/) 🆕 | `Freemium` | ★ 4.5 | `prompts` `development` `design` | Visual library of production-ready prompts for building websites, landing pages, UI sections, apps, and motion effects with AI coding tools. |
 | [**Webscraping AI**](https://webscraping.ai) | `Freemium` | ★ 4.4 | `development` | AI-powered web scraping API handling proxies, browsers, and HTML parsing for easy data extraction. |
 | [**Websparks**](https://websparks.ai) | `Freemium` | ★ 4.3 | `development` | AI-powered platform for rapid website and application development. |
 | [**Welovegpts**](https://welovegpts.com) | `Freemium` | ★ 4.4 | `development` | AI website builder with tools for selling services, client engagement, and AI assistance. |
@@ -6876,7 +6884,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="marketing"></a>📂 Marketing (850 tools)
+## <a id="marketing"></a>📂 Marketing (851 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -7569,6 +7577,7 @@
 | [**Socialbee**](https://get.socialbee.io/xoxvsuuqr5by) | `Freemium` | ★ 4.2 | `marketing` `social-media` | AI-powered social media management tool for creating, scheduling, and analyzing content. |
 | [**Socialbotify**](https://socialbotify.com) | `Freemium` | ★ 4.2 | `marketing` `social-media` | Transforms social media links into formatted Telegram messages with alerts. |
 | [**Socialdude AI**](https://socialdude.ai) | `Freemium` | ★ 4.5 | `marketing` `social-media` | AI-powered content creation for impactful social media messaging. |
+| [**SocialEcho**](https://www.socialecho.net/) 🆕 | `Freemium` | ★ 4.6 | `social-media` `marketing` `publishing` | AI workspace for publishing, engagement, listening, and analytics across 11 social platforms including Facebook, Instagram, TikTok, LinkedIn, and Threads. |
 | [**Socialplaces Io**](https://socialplaces.io) | `Freemium` | ★ 4.1 | `marketing` | A franchise marketing agency offering multi-location software solutions for online presence management. |
 | [**Socialplus AI**](https://socialplus.ai) ⭐ | `Freemium` | ★ 4.6 | `marketing` `social-media` | Social media management tool with AI features, integrating multiple platforms for free. |
 | [**Socialtalk**](https://socialtalk.io) 🆕 | `Freemium` | ★ 4.4 | `marketing` | AI-powered influencer marketing platform for easy campaign creation and management. |
@@ -7733,7 +7742,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="productivity"></a>📂 Productivity (850 tools)
+## <a id="productivity"></a>📂 Productivity (851 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -8068,6 +8077,7 @@
 | [**Gpt4sales**](https://www.gpt4sales.ai) 🆕 | `Freemium` | ★ 4.8 | `productivity` `coding` | Create custom GPTs for WhatsApp and Telegram to automate sales and tasks without coding. |
 | [**Gptalk Chatgpt On Iphone Keyboard**](https://gptalk.co) | `Freemium` | ★ 4.2 | `productivity` `chat` | GPTalk integrates ChatGPT into your browser and iPhone keyboard for AI assistance. |
 | [**Gptbox**](https://www.gptbox.app) | `Freemium` | ★ 4.9 | `productivity` `chat` | GPTBox integrates ChatGPT and DeepSeek into the Windows taskbar for AI assistance in any application. |
+| [**GPTGeminiGrok.AI**](https://trygrokai.asia/) 🆕 | `Freemium` | ★ 4.5 | `chatbot` `multi-model` `productivity` | Browser-based multi-model AI workspace combining GPT, Claude, Grok, Gemini, and AI image generation for analysis, writing, research, and everyday productivity. |
 | [**Gptguard**](https://www.gptguard.ai) 🆕 | `Freemium` | ★ 4.1 | `productivity` `chat` | Enhances ChatGPT privacy and security by masking sensitive data. |
 | [**Gpthub Best**](https://www.gpthub.best) | `Freemium` | ★ 4.4 | `productivity` `chat` | A hub for custom ChatGPT apps, allowing users to discover, rate, and share AI innovations. |
 | [**Gptify**](https://gptifyai.com) | `Freemium` | ★ 4.4 | `productivity` | GPTify simplifies tasks on your favorite sites using AI and custom commands. |
@@ -8590,7 +8600,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="research"></a>📂 Research (850 tools)
+## <a id="research"></a>📂 Research (851 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -8926,6 +8936,7 @@
 | [**Hyggex**](https://www.hyggexworld.com) | `Freemium` | ★ 4.9 | `research` `learning` | Personalized learning platform with AI-powered tools for students' academic and personal growth. |
 | [**Iconizeai**](https://iconizeai.com) | `Freemium` | ★ 4.7 | `research` | IconizeAI generates custom icons and illustrations using AI based on user descriptions and style preferences. |
 | [**Ideaape**](https://ideaape.com) | `Freemium` | ★ 4.2 | `research` | AI market research tool using Reddit data for brand strategy and validation. |
+| [**IdeaHunter**](https://ideahunter.today) 🆕 | `Freemium` | ★ 4.6 | `startup-ideas` `market-research` `idea-validation` | Helps solo founders research demand-backed app and micro-SaaS ideas using public market signals, buyer pain, MVP scope, validation steps, and monetization paths. |
 | [**Idranking SEO Tools For Free**](https://idranking.com) 🆕 | `Freemium` | ★ 4.1 | `research` `seo` | Free AI SEO tools and checkers for keyword research and website optimization. |
 | [**Iirc If I Recall Correctly**](http://iirc.ai) | `Freemium` | ★ 4.4 | `research` | AI-powered tool to enhance memory retention through quizzes, summarization, and mnemonics. |
 | [**Imitate AI**](https://www.imipics.ai) 🆕 | `Freemium` | ★ 4.7 | `research` `images` | AI tool for creating copyright-free images resembling reference photos. |
@@ -9447,7 +9458,7 @@
 
 [⬆ Back to Top](#-category-navigation)
 
-## <a id="video"></a>📂 Video (850 tools)
+## <a id="video"></a>📂 Video (852 tools)
 
 | Tool | Pricing | Rating | Tags | Description |
 | :--- | :---: | :---: | :--- | :--- |
@@ -9654,6 +9665,7 @@
 | [**Cupiee**](https://cupiee.com) | `Freemium` | ★ 4.6 | `video` | AI emotion companion on Web3 for emotional support and well-being. |
 | [**Cutlabs AI**](https://cutlabs.ai) 🆕 | `Freemium` | ★ 4.8 | `video` `editor` | AI video editor for streamers to create highlight clips quickly. |
 | [**Cutout Pro**](https://www.cutout.pro) | `Freemium` | ★ 4.2 | `video` `design` `visual` | AI-powered visual design platform for photo and video editing and content generation. |
+| [**Cyanvid**](https://cyanvid.com) 🆕 | `Freemium` | ★ 4.5 | `video-generation` `text-to-video` `image-to-video` | AI video generator SaaS that turns text and images into videos with modern models. Built for creators and marketers who want ideas in motion without a heavy production stack. |
 | [**D Id**](https://www.d-id.com) | `Freemium` | ★ 4.6 | `video` `images` | D-ID creates talking avatar videos from images and scripts using AI. |
 | [**Davenci AI**](https://app.davenci.ai/register) | `Freemium` | ★ 4.7 | `video` `automation` | AI platform for content creation, image, video, avatars, and automation. |
 | [**Decoherence**](https://www.decoherence.co) | `Freemium` | ★ 4.5 | `video` `images` | AI platform for generating images, videos, art, characters, and avatars. |
@@ -9823,6 +9835,7 @@
 | [**Imagetocartoon**](https://imagetocartoon.com) | `Freemium` | ★ 4.1 | `video` | AI tool to convert photos into cartoon avatars online. |
 | [**Imaginario AI**](https://www.imaginario.ai) | `Freemium` | ★ 4.8 | `video` | AI-powered video curation platform for professionals to search, clip, and understand videos. |
 | [**Imagineai By Magus Gg**](https://magus.gg) | `Freemium` | ★ 4.5 | `video` `3d` | AI tools for generating 3D models, videos, animations, and game scripts. |
+| [**ImagineClip**](https://imagineclip.com) 🆕 | `Freemium` | ★ 4.5 | `video-generation` `image-to-video` `avatar` | AI video generator for fun clips, avatar videos, stylized scenes, and shareable social content made from prompts, images, and effects. |
 | [**Imgkits Top AI Image Video Processing Tools Online**](https://www.imgkits.com) | `Freemium` | ★ 4.4 | `video` `editor` | All-in-one AI Image & Video Editor: create stunning photos and videos with Imgkits |
 | [**Immagin**](https://immag.in) | `Freemium` | ★ 4.2 | `video` | A.I. powered image processing API and CDN for optimized image and video delivery. |
 | [**Immersive Fox**](https://www.immersive-fox.com) | `Freemium` | ★ 4.2 | `video` | AI tool for creating personalized, multilingual business videos from text. |

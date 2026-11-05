@@ -1,6 +1,6 @@
 {
   "_category": "marketing",
-  "_count": 850,
+  "_count": 851,
   "tools": [
     {
       "id": "10x-tech-infinity",
@@ -13622,6 +13622,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "socialecho",
+      "name": "SocialEcho",
+      "description": "AI workspace for publishing, engagement, listening, and analytics across 11 social platforms including Facebook, Instagram, TikTok, LinkedIn, and Threads.",
+      "category": "marketing",
+      "pricing": "Freemium",
+      "link": "https://www.socialecho.net/",
+      "tags": [
+        "social-media",
+        "marketing",
+        "publishing",
+        "analytics",
+        "automation"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "Samuel-Kuang",
+      "submittedAt": "2026-08-25T10:00:00Z",
+      "lastUpdated": "2026-08-25T10:00:00Z",
       "verificationStatus": "verified"
     },
     {

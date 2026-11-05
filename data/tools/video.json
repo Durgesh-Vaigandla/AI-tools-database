@@ -1,6 +1,6 @@
 {
   "_category": "video",
-  "_count": 850,
+  "_count": 852,
   "tools": [
     {
       "id": "1029th",
@@ -3991,6 +3991,29 @@
       "verificationStatus": "verified"
     },
     {
+      "id": "cyanvid",
+      "name": "Cyanvid",
+      "description": "AI video generator SaaS that turns text and images into videos with modern models. Built for creators and marketers who want ideas in motion without a heavy production stack.",
+      "category": "video",
+      "pricing": "Freemium",
+      "link": "https://cyanvid.com",
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "image-to-video",
+        "saas",
+        "creators"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "kbwzy",
+      "submittedAt": "2026-10-28T03:17:14Z",
+      "lastUpdated": "2026-10-28T03:17:14Z",
+      "verificationStatus": "verified"
+    },
+    {
       "id": "d-id",
       "name": "D Id",
       "description": "D-ID creates talking avatar videos from images and scripts using AI.",
@@ -7302,6 +7325,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "imagineclip",
+      "name": "ImagineClip",
+      "description": "AI video generator for fun clips, avatar videos, stylized scenes, and shareable social content made from prompts, images, and effects.",
+      "category": "video",
+      "pricing": "Freemium",
+      "link": "https://imagineclip.com",
+      "tags": [
+        "video-generation",
+        "image-to-video",
+        "avatar",
+        "social-content",
+        "creative-tools"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.5,
+      "submittedBy": "JeremyGDM",
+      "submittedAt": "2026-06-16T05:08:34Z",
+      "lastUpdated": "2026-06-16T05:08:34Z",
       "verificationStatus": "verified"
     },
     {

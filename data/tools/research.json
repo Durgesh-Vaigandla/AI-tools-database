@@ -1,6 +1,6 @@
 {
   "_category": "research",
-  "_count": 850,
+  "_count": 851,
   "tools": [
     {
       "id": "008",
@@ -6548,6 +6548,29 @@
       "submittedBy": "community",
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ideahunter",
+      "name": "IdeaHunter",
+      "description": "Helps solo founders research demand-backed app and micro-SaaS ideas using public market signals, buyer pain, MVP scope, validation steps, and monetization paths.",
+      "category": "research",
+      "pricing": "Freemium",
+      "link": "https://ideahunter.today",
+      "tags": [
+        "startup-ideas",
+        "market-research",
+        "idea-validation",
+        "founder-tools",
+        "micro-saas"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 4.6,
+      "submittedBy": "happynocode",
+      "submittedAt": "2026-09-02T10:00:00Z",
+      "lastUpdated": "2026-09-02T10:00:00Z",
       "verificationStatus": "verified"
     },
     {
