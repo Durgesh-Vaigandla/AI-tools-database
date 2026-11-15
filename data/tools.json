@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T21:00:48.528Z",
+  "lastUpdated": "2026-11-15T22:06:46.485Z",
   "version": "1.0.0",
-  "totalTools": 10213,
+  "totalTools": 10214,
   "categories": [
     {
       "id": "audio",
@@ -41,7 +41,7 @@
     {
       "id": "education",
       "name": "Education",
-      "count": 850
+      "count": 851
     },
     {
       "id": "marketing",
@@ -169550,6 +169550,27 @@
       "submittedAt": "2024-06-15T10:00:00Z",
       "lastUpdated": "2024-11-01T10:00:00Z",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "studyarena",
+      "name": "StudyArena",
+      "description": "Compare three AI answers to a study question without seeing the model names, vote for the clearest explanation, then reveal the models. The free plan includes comparisons, voting and saved history; an account is required. Model choice and six-model comparisons require Supporter.",
+      "category": "education",
+      "pricing": "Freemium",
+      "link": "https://studyarena.com",
+      "tags": [
+        "education",
+        "study",
+        "ai-comparison"
+      ],
+      "featured": false,
+      "popular": false,
+      "new": true,
+      "rating": 0,
+      "submittedBy": "andsnw",
+      "submittedAt": "2026-11-15T22:05:25Z",
+      "lastUpdated": "2026-11-15T22:05:25Z",
+      "verificationStatus": "pending"
     },
     {
       "id": "studyboosterai",
